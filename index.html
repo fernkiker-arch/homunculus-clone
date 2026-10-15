@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>homunculus Inc. | 株式会社ホムンクルス</title>
+<meta name="description" content="homunculus Inc.（株式会社ホムンクルス）はwebサイトを中心にインタラクティブコンテンツ、デジタルコンテンツの制作、開発を行っています。">
+<meta name="keywords" content="ホムンクルス,homunculus,株式会社ホムンクルス,homunculus Inc.,web,企画,デザイン,interactive,webGL,GLSL,javascript,VR,Flash,制作,システム開発,アプリ開発,キャンペーンサイト,写真撮影,渋谷,千駄ヶ谷,代々木">
+
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="homunculus Inc. | 株式会社ホムンクルス">
+<meta property="og:title" content="homunculus Inc. | 株式会社ホムンクルス">
+<meta property="og:description" content="homunculus Inc.（株式会社ホムンクルス）はwebサイトを中心にインタラクティブコンテンツ、デジタルコンテンツの制作、開発を行っています。">
+<meta property="og:url" content="https://homunculus.jp/">
+<meta property="og:image" content="https://homunculus.jp/common/og.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="homunculus Inc. | 株式会社ホムンクルス">
+<meta name="twitter:description" content="homunculus Inc.（株式会社ホムンクルス）はwebサイトを中心にインタラクティブコンテンツ、デジタルコンテンツの制作、開発を行っています。">
+<meta name="twitter:url" content="https://homunculus.jp/">
+<meta name="twitter:image" content="https://homunculus.jp/common/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans+JP:wght@100..900&family=Zen+Old+Mincho:wght@600&display=swap" rel="stylesheet">
+
+<link rel="icon" href="./favicon.ico">
+<link rel="icon" type="image/png" href="./favicon.png" sizes="32x32">
+<link rel="icon" type="image/png" href="./android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+
+	<!-- ############################################# -->
+	<link rel="stylesheet" href="./assets/css/destyle.css" />
+	<link rel="stylesheet" href="./assets/css/gl.css?v=260706" />
+	<!-- ############################################# -->
+	
+	<script src="assets/lib/howler.min.js"></script>
+
+</head>
+
+<body>
+	<!-- webGL -->
+	<div id="gl-world"></div>
+	<div class="gl-sand"></div>
+	<!-- /webGL -->
+
+	<div class="top-ui">
+		<div class="top-jimaku gsans-j">字幕</div>
+		<div class="top-navi">
+			<button id="top-navi-btn1" class="top-navi-btn top-hover-a gsans-j" onclick="_glMain._sound.startVoice('s0');">
+				<div class="top-navi-wave"></div><p>name<sup>#1</sup></p>
+			</button>
+			<button id="top-navi-btn2" class="top-navi-btn top-hover-a gsans-j" onclick="_glMain._sound.startVoice('s0');">
+				<div class="top-navi-wave"></div><p>name<sup>#1</sup></p>
+			</button>
+			<button id="top-navi-btn3" class="top-navi-btn top-hover-a gsans-j" onclick="_glMain._sound.startVoice('s0');">
+				<div class="top-navi-wave"></div><p>name<sup>#1</sup></p>
+			</button>
+			<button id="top-navi-btn4" class="top-navi-btn top-hover-a gsans-j" onclick="_glMain._sound.startVoice('s0');">
+				<div class="top-navi-wave"></div><p>name<sup>#2</sup></p>
+			</button>
+		</div>
+		<div class="top-trace">
+			<div class="top-traceIn"></div>
+		</div>
+
+		<div class="top-navi-sp">
+			<div class="top-naviLine-sp"></div>
+			<div class="top-naviScroll-sp">
+				<div id="top-naviSet-sp0" class="top-naviSet-sp">
+					<!--<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#1</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>-->
+				</div>
+				<div id="top-naviSet-sp1" class="top-naviSet-sp">
+					<!--<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#1</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>-->
+				</div>
+				<div id="top-naviSet-sp2" class="top-naviSet-sp">
+					<!--<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#1</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>
+					<button class="top-navi-btnSp gsans"><div class="top-navi-wave-sp"></div><p>What<sup>#2</sup></p></button>-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wList-page">
+		<div class="wScroll-trg"></div>
+		<div class="wFooterRing"></div>
+		<button class="wFooter" onclick="_glMain._contact.open();">
+			<div class="wFooterT"><img src="./assets/image/footer_contact.webp" alt="CONTACT US" width="100%" height="auto" /></div>
+			<div class="wFooterBar"><div class="wFooterBarIn"></div></div>
+			<div class="wFooterSab">お気軽にお問い合わせください</div>
+		</button>
+	</div>
+	
+	<div class="detail-outer">
+		<div class="detail-page">
+			<div class="detail-bg"></div>
+			<div id="detail-1" class="detail-trg">
+				<div class="detail-block-head">
+					<div class="detail-title">
+						<img id="detail-1-title" class="detail-title-mask" src="assets/image/dom/title1.webp" alt="WHO WE ARE" />
+					</div>
+				</div>
+				<div class="detail-block">
+					<div class="detail-sideArrow">
+						<div class="detail-sideArrowIn gsans">
+							DIGITAL DESIGN &<br>DEVELOPMENT
+						</div>
+					</div>
+					<div id="detail-1-cont" class="detail-cont detail-cont-mask">
+						<p class="detail-title-sBar"></p>
+						<p class="detail-title-s">私たちについて</p>
+						<div class="detail-txt">
+						私たちホムンクルスは、<br>
+						デジタルコンテンツを作る<br class="gl-brsp">会社です。<br>
+						<br>
+						企画立案から<br class="gl-brsp">インタラクションの実装、<br>
+						バックエンドの開発まで、<br>
+						デジタルコンテンツ制作全般を<br class="gl-brsp">手掛けています。<br>
+						<br>
+						より深く、より広く伝達する<br class="gl-brsp">表現を模索し、<br>
+						見た人、触れた人の心に<br class="gl-brsp">残るような、<br>
+						新しいユーザー体験を<br class="gl-brsp">提供できるよう、<br>
+						日々取り組んでいます。
+						</div>
+						<div class="detail-txt-en gsans">
+							<!--<span>( EN )</span><br>-->
+							We are homunculus Inc, <br>
+							a digital production studio.<br>
+							<br>
+							From concept development and interactive implementation to backend engineering, <br>
+							we work across every aspect of digital content creation.<br>
+							<br>
+							We explore new forms of expression that communicate deeply and reach widely—creating user experiences that leave a lasting impression on everyone who sees and engages with them.
+						</div>
+						<p class="detail-modal-closeWrapp">
+							<button class="detail-modal-close gsans" onclick="_glMain._sceneMng.closeDetail();">Close</button>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="detail-2" class="detail-trg">
+				<div class="detail-block-head">
+					<div class="detail-title">
+						<img id="detail-2-title" class="detail-title-mask" src="assets/image/dom/title2.webp" alt="WHAT WE MADE" />
+					</div>
+				</div>
+				<div class="detail-block">
+					<div class="detail-sideArrow">
+						<div class="detail-sideArrowIn gsans">
+							DIGITAL DESIGN &<br>DEVELOPMENT
+						</div>
+					</div>
+					<div id="detail-2-cont" class="detail-cont detail-cont-mask">
+						<p class="detail-title-sBar"></p>
+						<p class="detail-title-s">私たちがつくったもの<!--、<br>私たちにできること--></p>
+						<div class="detail-txt">
+						ユーザー体験を重視した<br>
+						インタラクティブなコンテンツ制作を得意としています。
+						</div>
+						<div class="detail-txt-en gsans">
+							<!--<span>( EN )</span><br>-->
+							We create interactive web experiences centered around user experience.
+						</div>
+						<div class="detail-work-set">
+							<!--<div class="detail-work">
+							</div>
+							<div class="detail-work">
+							</div>
+							<div class="detail-work">
+							</div>
+							<div class="detail-work">
+							</div>-->
+						</div>
+						<p class="detail-modal-closeWrapp">
+							<button class="detail-modal-close gsans" onclick="_glMain._sceneMng.closeDetail();">Close</button>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="detail-3" class="detail-trg">
+				<div class="detail-block-head">
+					<div class="detail-title">
+						<img id="detail-3-title" class="detail-title-mask" src="assets/image/dom/title3.webp" alt="COMPANY PROFILE" />
+					</div>
+				</div>
+				<div class="detail-block">
+					<div class="detail-sideArrow">
+						<div class="detail-sideArrowIn gsans">
+							DIGITAL DESIGN &<br>DEVELOPMENT
+						</div>
+					</div>
+					<div id="detail-3-cont" class="detail-cont detail-cont-mask">
+						<p class="detail-title-sBar"></p>
+						<p class="detail-title-s">homunculus Inc.</p>
+						<div class="detail-txt">
+						株式会社ホムンクルス<br>
+						〒151-0051 <br class="gl-brsp">東京都渋谷区千駄ヶ谷5-4-9<br>
+						第20スカイビル 401
+						</div>
+						<div class="detail-txt-en gsans">
+							<!--<span>( EN )</span><br>-->
+							Room 401, Dai-20 Sky Building, <br>
+							5-4-9 Sendagaya, Shibuya-ku, <br>
+							Tokyo 151-0051, Japan
+						</div>
+						<div class="detail-comp-links gsans">
+							<a class="detail-comp-a" href="https://www.google.co.jp/maps/place/homunculus+Inc./@35.6826944,139.7052635,17z/data=!3m1!4b1!4m5!3m4!1s0x60188cc0dc634acd:0xf0a237df7ce97304!8m2!3d35.6826944!4d139.7074522?hl=ja" target="_blank">Map</a><span>/</span> 
+							<a class="detail-comp-a" href="https://www.facebook.com/homunculus.jp/" target="_blank">Facebook</a><span>/</span>
+							<a class="detail-comp-a" href="https://x.com/homuculu" target="_blank">X</a><span>/</span>
+							<a class="detail-comp-a" href="https://note.com/homunculus_inc" target="_blank">note</a>
+						</div>
+						<div class="detail-comp-img">
+							<img src="./assets/image/dom/comp_img.webp" width="100%" height="auto" alt="" />
+						</div>
+						<p class="detail-modal-closeWrapp">
+							<button class="detail-modal-close gsans" onclick="_glMain._sceneMng.closeDetail();">Close</button>
+						</p>
+					</div>
+				</div>
+			</div>
+			<button class="detail-close" onclick="_glMain._sceneMng.closeDetail();"></button>
+		</div>
+	</div>
+
+	<div class="head-btnWrapp">
+		<button class="head-btn gsans" onclick="_glMain._topDom.nextScene();">
+			Inside
+			<div class="head-btn-inner"></div>
+			<div class="head-btn-outer"></div>
+		</button>
+		<button class="head-back-btn gsans" onclick="_glMain._topDom.backScene();">
+			<!--<span>Return</span><br>
+			Outside-->
+			Return<!--<br>
+			to Top-->
+			<div class="head-btn-inner"></div>
+			<div class="head-btn-outer"></div>
+			<div class="head-back-btn-hov"></div>
+		</button>
+	</div>
+
+	<div class="head-logo">
+		<button class="head-logoIn" onclick="_glMain._topDom.backScene();"></button>
+		<button class="head-contact top-hover-c gsans" onclick="_glMain._contact.open();">/<span class="head-contactIn">Contact</span></button>
+	</div>
+
+	<div class="mute-btnWrapp">
+		<button class="mute-btn top-hover-c gsans" onclick="_glMain._sound.sSwitch();">Sound</button>
+	</div>
+
+	<div class="contact-base">
+		<div class="contact-bg"></div>
+		<div class="contact-set">
+			<p class="contact-notxt">下記のメールアドレスより<br class="sp-br">お問い合わせください</p>
+			<a class="contact-mail gsans"></a>
+			<p class="contact-add">株式会社ホムンクルス<br>
+				〒151-0051 <br class="sp-br">東京都渋谷区千駄ヶ谷5-4-9 <br class="sp-br">第20スカイビル 401</p>
+			<div class="contact-links gsans">
+				<a class="contact-a" href="https://www.google.co.jp/maps/place/homunculus+Inc./@35.6826944,139.7052635,17z/data=!3m1!4b1!4m5!3m4!1s0x60188cc0dc634acd:0xf0a237df7ce97304!8m2!3d35.6826944!4d139.7074522?hl=ja" target="_blank">Map</a><span>/</span> 
+				<a class="contact-a" href="https://www.facebook.com/homunculus.jp/" target="_blank">Facebook</a><span>/</span>
+				<a class="contact-a" href="https://x.com/homuculu" target="_blank">X</a><span>/</span>
+				<a class="contact-a" href="https://note.com/homunculus_inc" target="_blank">note</a>
+			</div>
+		</div>
+		<button class="detail-close" onclick="_glMain._contact.close();"></button>
+	</div>
+
+	<div class="loading">
+		<div class="loading-bg"></div>
+		<div class="loading-bar"><div class="loading-barIn"></div></div>
+
+		<button class="loading-start" onclick="_glMain._loading.startClick(true);">
+			<!--<img src="./assets/image/line_logo.webp" alt="homunculus Inc." />-->
+			<p class="loading-name">homunculus Inc.</p>
+			<div class="loading-start-actWrapp">
+				<div class="loading-start-actBg"></div>
+				<div class="loading-start-act">Enter</div>
+			</div>
+			<p class="loading-txt">with Sound</p>
+		</button>
+		<button class="loading-noSound gsans" onclick="_glMain._loading.startClick(false);">without Sound</button>
+	</div>
+
+</body>
+	
+	<!---->	
+	<!--<script type="module" src="assets/js/index.js"></script>-->
+	<script type="module" src="assets/js/main.js?v=260706"></script>
+</html>

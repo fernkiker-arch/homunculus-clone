@@ -1,0 +1,940 @@
+[
+  {
+    "url": "https://homunculus.jp/",
+    "status": 200,
+    "size": 14968,
+    "contentType": "text/html",
+    "saved": true
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans+JP:wght@100..900&family=Zen+Old+Mincho:wght@600&display=swap",
+    "status": 200,
+    "size": 0,
+    "contentType": "text/css; charset=utf-8",
+    "saved": false
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/dom/title1.webp",
+    "status": 200,
+    "size": 23182,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/footer_contact.webp",
+    "status": 200,
+    "size": 6008,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/css/gl.css?v=260706",
+    "status": 200,
+    "size": 25295,
+    "contentType": "text/css",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/css/destyle.css",
+    "status": 200,
+    "size": 6132,
+    "contentType": "text/css",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/lib/howler.min.js",
+    "status": 200,
+    "size": 36137,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/js/main.js?v=260706",
+    "status": 200,
+    "size": 803286,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/works/works.json?v=2114",
+    "status": 200,
+    "size": 2680,
+    "contentType": "application/json",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/dom/title2.webp",
+    "status": 200,
+    "size": 25698,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/dom/title3.webp",
+    "status": 200,
+    "size": 28956,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/dom/comp_img.webp",
+    "status": 200,
+    "size": 342226,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/sand.webp",
+    "status": 200,
+    "size": 192876,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/dom/top_go_ring.png",
+    "status": 200,
+    "size": 6651,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/head_logo.webp",
+    "status": 200,
+    "size": 2314,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/dom/top_navi_wave.webp",
+    "status": 200,
+    "size": 482,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/googlesans/v71/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCI.woff2",
+    "status": 200,
+    "size": 0,
+    "contentType": "font/woff2",
+    "saved": false
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/zenoldmincho/v14/tss3ApVaYytLwxTqcxfMyBveyb4vrWld-9I.woff2",
+    "status": 200,
+    "size": 0,
+    "contentType": "font/woff2",
+    "saved": false
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.109.woff2",
+    "status": 200,
+    "size": 0,
+    "contentType": "font/woff2",
+    "saved": false
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/notosansjp/v57/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.93.woff2",
+    "status": 200,
+    "size": 0,
+    "contentType": "font/woff2",
+    "saved": false
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/eye_diffuse.jpg",
+    "status": 200,
+    "size": 161278,
+    "contentType": "image/jpeg",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/hitomi.png",
+    "status": 200,
+    "size": 72843,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/diffuse.webp?v=269",
+    "status": 200,
+    "size": 1788228,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/diffuseCol.webp?v=745",
+    "status": 200,
+    "size": 406952,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/hitomi_red.png",
+    "status": 200,
+    "size": 105365,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/tooth.webp",
+    "status": 200,
+    "size": 66334,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/face_shadow.webp",
+    "status": 200,
+    "size": 48172,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/face_mask.png",
+    "status": 200,
+    "size": 77440,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/word0.webp",
+    "status": 200,
+    "size": 730832,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/word_l0.webp",
+    "status": 200,
+    "size": 80358,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/word_l0Blur.webp",
+    "status": 200,
+    "size": 299638,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/word_l_ring1.webp",
+    "status": 200,
+    "size": 2182,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/word_l_ring2.webp",
+    "status": 200,
+    "size": 2678,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/bgTile0.webp",
+    "status": 200,
+    "size": 730,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/bgTile1.webp",
+    "status": 200,
+    "size": 736,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/bgTile2.webp",
+    "status": 200,
+    "size": 728,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/bgTile3.webp",
+    "status": 200,
+    "size": 724,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/bgTileMask.webp",
+    "status": 200,
+    "size": 610,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/wave.webp",
+    "status": 200,
+    "size": 161648,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/wave_mask.png",
+    "status": 200,
+    "size": 66252,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/outline.png",
+    "status": 200,
+    "size": 14928,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/transition_red.png",
+    "status": 200,
+    "size": 69884,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/transition_green.png",
+    "status": 200,
+    "size": 47047,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2blurMask.webp",
+    "status": 200,
+    "size": 1334,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2blurMask_sp.webp",
+    "status": 200,
+    "size": 878,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2ribbon_sSize.webp",
+    "status": 200,
+    "size": 12656,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/title.webp",
+    "status": 200,
+    "size": 164844,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/title_sp.webp",
+    "status": 200,
+    "size": 69882,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/title_blur.webp",
+    "status": 200,
+    "size": 135790,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/title_color.webp",
+    "status": 200,
+    "size": 4056,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/thumMask.webp",
+    "status": 200,
+    "size": 5366,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2thumRing.webp",
+    "status": 200,
+    "size": 27400,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/particle.png",
+    "status": 200,
+    "size": 4856,
+    "contentType": "image/png",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2lineDot.webp",
+    "status": 200,
+    "size": 406,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2burash.webp",
+    "status": 200,
+    "size": 10700,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2burash_green.webp",
+    "status": 200,
+    "size": 9380,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2lineBottom.webp",
+    "status": 200,
+    "size": 1160,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2lineBottomLogo.webp",
+    "status": 200,
+    "size": 1590,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2thumWave.webp",
+    "status": 200,
+    "size": 12410,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/s2thumVMaskFrame.webp",
+    "status": 200,
+    "size": 9482,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/thumArrow.webp",
+    "status": 200,
+    "size": 3608,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/line_logo.webp",
+    "status": 200,
+    "size": 2346,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/startMask.webp",
+    "status": 200,
+    "size": 4546,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/top_block.webp",
+    "status": 200,
+    "size": 1448,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/crioTex_a.webp",
+    "status": 200,
+    "size": 5572,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/crioTex_b.webp",
+    "status": 200,
+    "size": 8542,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/image/bgTest.webp",
+    "status": 200,
+    "size": 37270,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/planeBase_vtx.js?v=947",
+    "status": 200,
+    "size": 173,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/planeBase_frg.js?v=262",
+    "status": 200,
+    "size": 185,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/display_frg.js?v=975",
+    "status": 200,
+    "size": 2343,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2display_frg.js?v=522",
+    "status": 200,
+    "size": 1339,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/noise_frg.js?v=361",
+    "status": 200,
+    "size": 3503,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/blur_frg.js?v=152",
+    "status": 200,
+    "size": 6165,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/blur2_frg.js?v=200",
+    "status": 200,
+    "size": 2222,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/face_vtx.js?v=352",
+    "status": 200,
+    "size": 1312,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/faceBase_frg.js?v=762",
+    "status": 200,
+    "size": 4638,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/face_frg.js?v=44",
+    "status": 200,
+    "size": 6364,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/outline_frg.js?v=710",
+    "status": 200,
+    "size": 4789,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/word_frg.js?v=275",
+    "status": 200,
+    "size": 370,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/wordL_frg.js?v=41",
+    "status": 200,
+    "size": 657,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/word_vtx.js?v=830",
+    "status": 200,
+    "size": 368,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/bgTile_frg.js?v=389",
+    "status": 200,
+    "size": 498,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/wave_frg.js?v=494",
+    "status": 200,
+    "size": 624,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/voiceLine_vtx.js?v=193",
+    "status": 200,
+    "size": 267,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/voiceLine_frg.js?v=248",
+    "status": 200,
+    "size": 698,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/topPanel_frg.js?v=240",
+    "status": 200,
+    "size": 469,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/crio_vtx.js?v=879",
+    "status": 200,
+    "size": 1786,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/crio_frg.js?v=988",
+    "status": 200,
+    "size": 5902,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2cylinder_frg.js?v=420",
+    "status": 200,
+    "size": 3469,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2cylinderP_frg.js?v=218",
+    "status": 200,
+    "size": 1702,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2cylinderBg_frg.js?v=797",
+    "status": 200,
+    "size": 529,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2Title_frg.js?v=182",
+    "status": 200,
+    "size": 2773,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2particle_vtx.js?v=834",
+    "status": 200,
+    "size": 874,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2particle_frg.js?v=285",
+    "status": 200,
+    "size": 350,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2Logoparticle_vtx.js?v=742",
+    "status": 200,
+    "size": 934,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2Logoparticle_frg.js?v=768",
+    "status": 200,
+    "size": 350,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2lineDot_vtx.js?v=44",
+    "status": 200,
+    "size": 257,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2lineDot_frg.js?v=697",
+    "status": 200,
+    "size": 434,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2thumBg_frg.js?v=681",
+    "status": 200,
+    "size": 486,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2thumArrow_frg.js?v=728",
+    "status": 200,
+    "size": 397,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2thumLogo_frg.js?v=205",
+    "status": 200,
+    "size": 393,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/s2thum_frg.js?v=701",
+    "status": 200,
+    "size": 1905,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/mEffect_vtx.js?v=235",
+    "status": 200,
+    "size": 256,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/mEffect_frg.js?v=776",
+    "status": 200,
+    "size": 219,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/startCov_vtx.js?v=997",
+    "status": 200,
+    "size": 173,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/shader/startCov_frg.js?v=421",
+    "status": 200,
+    "size": 753,
+    "contentType": "application/javascript",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/sound/caution.mp3",
+    "status": 200,
+    "size": 16239,
+    "contentType": "audio/mpeg",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/voice/voice16.mp3",
+    "status": 200,
+    "size": 1718713,
+    "contentType": "audio/mpeg",
+    "saved": true
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/ricoh_data_visualizer.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/rdc.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/bish_is_over.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://homunculus.jp/assets/models/crio.glb?v=21",
+    "status": 200,
+    "size": 19252,
+    "contentType": "",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/data/2_title.webp",
+    "status": 200,
+    "size": 7846,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/data/3_video.webp",
+    "status": 200,
+    "size": 47660,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/models/outline8.glb",
+    "status": 200,
+    "size": 39640,
+    "contentType": "",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/data/1_title.webp",
+    "status": 200,
+    "size": 6726,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/data/1_video.webp",
+    "status": 200,
+    "size": 60268,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/models/face.glb?v=625",
+    "status": 200,
+    "size": 515908,
+    "contentType": "",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/data/2_video.webp",
+    "status": 200,
+    "size": 117480,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/data/3_video.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://homunculus.jp/data/2_video.mp4",
+    "status": 206,
+    "size": 3007225,
+    "contentType": "video/mp4",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/data/3_title.webp",
+    "status": 200,
+    "size": 9014,
+    "contentType": "image/webp",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/data/1_video.mp4",
+    "status": 206,
+    "size": 2630918,
+    "contentType": "video/mp4",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/sound/bgm_rev.mp3",
+    "status": 206,
+    "size": 3203066,
+    "contentType": "audio/mpeg",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/sound/bgm2.mp3",
+    "status": 206,
+    "size": 3199120,
+    "contentType": "audio/mpeg",
+    "saved": true
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/taotajima.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/liberty_japan.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/unkai_navi.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/light_is_time.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/bravis.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/5572320.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://cdn.homunculus.me/homunculusjp/hartland.mp4",
+    "status": 206,
+    "size": 0,
+    "contentType": "video/mp4",
+    "saved": false
+  },
+  {
+    "url": "https://homunculus.jp/assets/models/eye.glb?v=429",
+    "status": 200,
+    "size": 143976,
+    "contentType": "",
+    "saved": true
+  },
+  {
+    "url": "https://homunculus.jp/assets/models/tooth.glb?v=436",
+    "status": 200,
+    "size": 20348,
+    "contentType": "",
+    "saved": true
+  }
+]

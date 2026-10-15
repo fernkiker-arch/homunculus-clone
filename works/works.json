@@ -1,0 +1,74 @@
+{
+    "works":[
+        {
+            "id":"h-video-9",
+            "title":"BRAVIS",
+            "vid":"https://cdn.homunculus.me/homunculusjp/bravis.mp4",
+            "poster":"./works/bravis.webp",
+            "url":"https://www.bravis.com/"
+        },
+        {
+            "id":"h-video-7",
+            "title":"BiSH iS OVER!",
+            "vid":"https://cdn.homunculus.me/homunculusjp/bish_is_over.mp4",
+            "poster":"./works/bish_is_over.webp",
+            "url":""
+        },
+        {
+            "id":"h-video-8",
+            "title":"Citizen / Light is Time",
+            "vid":"https://cdn.homunculus.me/homunculusjp/light_is_time.mp4",
+            "poster":"./works/light_is_time.webp",
+            "url":"https://citizen.jp/lightistime/index.html"
+        },
+        {
+            "id":"h-video-6",
+            "title":"Ricoh Data Visualizer",
+            "vid":"https://cdn.homunculus.me/homunculusjp/ricoh_data_visualizer.mp4",
+            "poster":"./works/ricoh_data_visualizer.webp",
+            "url":""
+        },
+        {
+            "id":"h-video-5",
+            "title":"雲海出現NAVI",
+            "vid":"https://cdn.homunculus.me/homunculusjp/unkai_navi.mp4",
+            "poster":"./works/unkai_navi.webp",
+            "url":"https://www.mitsubishi-motors.co.jp/special/weekend-explorer/unkai/#homeUnkaiNavi"
+        },
+        {
+            "id":"h-video-4",
+            "title":"Ricoh Digital Contents",
+            "vid":"https://cdn.homunculus.me/homunculusjp/rdc.mp4",
+            "poster":"./works/rdc.webp",
+            "url":""
+        },
+        {
+            "id":"h-video-3",
+            "title":"Tao Tajima",
+            "vid":"https://cdn.homunculus.me/homunculusjp/taotajima.mp4",
+            "poster":"./works/taotajima.webp",
+            "url":"https://taotajima.jp/"
+        },
+        {
+            "id":"h-video-2",
+            "title":"LIBERTY LONDON",
+            "vid":"https://cdn.homunculus.me/homunculusjp/liberty_japan.mp4",
+            "poster":"./works/liberty_japan.webp",
+            "url":"https://www.liberty-japan.co.jp/specialcontent/"
+        },
+        {
+            "id":"h-video-1",
+            "title":"HEARTLAND / Journey Around",
+            "vid":"https://cdn.homunculus.me/homunculusjp/hartland.mp4",
+            "poster":"./works/hartland.webp",
+            "url":""
+        },
+        {
+            "id":"h-video-0",
+            "title":"5572320 MASHUP MUSIC PLAYER",
+            "vid":"https://cdn.homunculus.me/homunculusjp/5572320.mp4",
+            "poster":"./works/5572320.webp",
+            "url":""
+        }
+    ]
+}
